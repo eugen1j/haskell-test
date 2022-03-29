@@ -1,7 +1,7 @@
 /Users/macbook/Haskell/eugen1j/testproj/.stack-work/dist/x86_64-osx/Cabal-3.2.1.0/build/testproj-exe/autogen/cabal_macros.h:
-  hash: a8c12166fff23f16895979bbc80d942260e787bc17af56049c217f4db26a3959
+  hash: 84a9e9ca9b5f1837f8e58190c02feb56ac24e161b7c9f5925611e6f1d0f2146e
 /Users/macbook/Haskell/eugen1j/testproj/testproj.cabal:
-  hash: 0ea8dfa195bf498034f3c64a3d3994bf898d032790b911583f20612044fbc7e0
+  hash: 22768357726ad4fa95ea34306c55e9ee8e2efe994dae920293b009d6aceddea9
 /Users/macbook/Haskell/eugen1j/testproj/.stack-work/dist/x86_64-osx/Cabal-3.2.1.0/build/testproj-exe/autogen/Paths_testproj.hs:
   hash: 90fcc19c6a8edb096bbd8213de7e76e65a5930fe127055476609f315956d517f
 /Users/macbook/.stack/programs/x86_64-osx/ghc-8.10.7/lib/ghc-8.10.7/include/ghcversion.h:
@@ -9,6 +9,6 @@
 /Users/macbook/Haskell/eugen1j/testproj/README.md:
   hash: ed853af5bc0d9c45b4697bea25f4fad9113d3bc5b1fe6f7a588b99e91b0e1863
 /Users/macbook/Haskell/eugen1j/testproj/package.yaml:
-  hash: a6559f9273554f495c56503b6cac702ea162e3ab09a2c88491a65a84bd8dd70b
+  hash: ffb4b604be8ea669f52da370e4c1d84145d8b0cccee25268d4ac36c8be8483a1
 /Users/macbook/Haskell/eugen1j/testproj/app/Main.hs:
   hash: 606799e6a687acb4b3bbd2396c844f793ba685efdac7928d7a70c426b6ad8898

@@ -29,12 +29,12 @@ version :: Version
 version = Version [0,1,0,0] []
 bindir, libdir, dynlibdir, datadir, libexecdir, sysconfdir :: FilePath
 
-bindir     = "/Users/macbook/Haskell/eugen1j/testproj/.stack-work/install/x86_64-osx/8f219e39c7904a9a84e2a43f533bf47abe75a1287c8b05192ccec53838d0f4dd/8.10.7/bin"
-libdir     = "/Users/macbook/Haskell/eugen1j/testproj/.stack-work/install/x86_64-osx/8f219e39c7904a9a84e2a43f533bf47abe75a1287c8b05192ccec53838d0f4dd/8.10.7/lib/x86_64-osx-ghc-8.10.7/testproj-0.1.0.0-FjBgdXiVF5L7Ryzt4kTUKF"
-dynlibdir  = "/Users/macbook/Haskell/eugen1j/testproj/.stack-work/install/x86_64-osx/8f219e39c7904a9a84e2a43f533bf47abe75a1287c8b05192ccec53838d0f4dd/8.10.7/lib/x86_64-osx-ghc-8.10.7"
-datadir    = "/Users/macbook/Haskell/eugen1j/testproj/.stack-work/install/x86_64-osx/8f219e39c7904a9a84e2a43f533bf47abe75a1287c8b05192ccec53838d0f4dd/8.10.7/share/x86_64-osx-ghc-8.10.7/testproj-0.1.0.0"
-libexecdir = "/Users/macbook/Haskell/eugen1j/testproj/.stack-work/install/x86_64-osx/8f219e39c7904a9a84e2a43f533bf47abe75a1287c8b05192ccec53838d0f4dd/8.10.7/libexec/x86_64-osx-ghc-8.10.7/testproj-0.1.0.0"
-sysconfdir = "/Users/macbook/Haskell/eugen1j/testproj/.stack-work/install/x86_64-osx/8f219e39c7904a9a84e2a43f533bf47abe75a1287c8b05192ccec53838d0f4dd/8.10.7/etc"
+bindir     = "/Users/macbook/Haskell/eugen1j/testproj/.stack-work/install/x86_64-osx/d44cbbb1cc35e9c00c7087f36eef411d3e58daf1a6d60b8d3ee2c4e5b3ed11b3/8.10.7/bin"
+libdir     = "/Users/macbook/Haskell/eugen1j/testproj/.stack-work/install/x86_64-osx/d44cbbb1cc35e9c00c7087f36eef411d3e58daf1a6d60b8d3ee2c4e5b3ed11b3/8.10.7/lib/x86_64-osx-ghc-8.10.7/testproj-0.1.0.0-DwckhTaxt4PDrEInhi6Sxe"
+dynlibdir  = "/Users/macbook/Haskell/eugen1j/testproj/.stack-work/install/x86_64-osx/d44cbbb1cc35e9c00c7087f36eef411d3e58daf1a6d60b8d3ee2c4e5b3ed11b3/8.10.7/lib/x86_64-osx-ghc-8.10.7"
+datadir    = "/Users/macbook/Haskell/eugen1j/testproj/.stack-work/install/x86_64-osx/d44cbbb1cc35e9c00c7087f36eef411d3e58daf1a6d60b8d3ee2c4e5b3ed11b3/8.10.7/share/x86_64-osx-ghc-8.10.7/testproj-0.1.0.0"
+libexecdir = "/Users/macbook/Haskell/eugen1j/testproj/.stack-work/install/x86_64-osx/d44cbbb1cc35e9c00c7087f36eef411d3e58daf1a6d60b8d3ee2c4e5b3ed11b3/8.10.7/libexec/x86_64-osx-ghc-8.10.7/testproj-0.1.0.0"
+sysconfdir = "/Users/macbook/Haskell/eugen1j/testproj/.stack-work/install/x86_64-osx/d44cbbb1cc35e9c00c7087f36eef411d3e58daf1a6d60b8d3ee2c4e5b3ed11b3/8.10.7/etc"
 
 getBinDir, getLibDir, getDynLibDir, getDataDir, getLibexecDir, getSysconfDir :: IO FilePath
 getBinDir = catchIO (getEnv "testproj_bindir") (\_ -> return bindir)

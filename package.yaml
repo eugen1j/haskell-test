@@ -24,6 +24,27 @@ dependencies:
 - servant-server
 - wai
 - warp
+- blaze-html
+- servant
+- blaze-markup
+- directory
+- http-media
+- time
+- string-conversions
+- bytestring
+- attoparsec
+- mtl
+- base-compat
+- lucid
+- containers
+- http-api-data
+- http-client
+- http-types
+- text
+- transformers
+- cookie
+- js-jquery
+- random
 
 library:
   source-dirs: src
