@@ -52,6 +52,7 @@ library
     , random
     , servant
     , servant-server
+    , strict
     , string-conversions
     , text
     , time
@@ -88,6 +89,7 @@ executable testproj-exe
     , random
     , servant
     , servant-server
+    , strict
     , string-conversions
     , testproj
     , text
@@ -129,6 +131,7 @@ test-suite testproj-test
     , random
     , servant
     , servant-server
+    , strict
     , string-conversions
     , testproj
     , text

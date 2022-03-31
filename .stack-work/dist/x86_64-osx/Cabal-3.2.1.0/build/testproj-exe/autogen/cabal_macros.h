@@ -231,6 +231,17 @@
   (major1) == 0 && (major2) == 18 && (minor) <= 3)
 #endif /* MIN_VERSION_servant_server */
 
+/* package strict-0.4.0.1 */
+#ifndef VERSION_strict
+#define VERSION_strict "0.4.0.1"
+#endif /* VERSION_strict */
+#ifndef MIN_VERSION_strict
+#define MIN_VERSION_strict(major1,major2,minor) (\
+  (major1) <  0 || \
+  (major1) == 0 && (major2) <  4 || \
+  (major1) == 0 && (major2) == 4 && (minor) <= 0)
+#endif /* MIN_VERSION_strict */
+
 /* package string-conversions-0.4.0.1 */
 #ifndef VERSION_string_conversions
 #define VERSION_string_conversions "0.4.0.1"
@@ -308,6 +319,17 @@
   (major1) == 3 && (major2) == 3 && (minor) <= 20)
 #endif /* MIN_VERSION_warp */
 
+/* tool cpphs-1.20.9 */
+#ifndef TOOL_VERSION_cpphs
+#define TOOL_VERSION_cpphs "1.20.9"
+#endif /* TOOL_VERSION_cpphs */
+#ifndef MIN_TOOL_VERSION_cpphs
+#define MIN_TOOL_VERSION_cpphs(major1,major2,minor) (\
+  (major1) <  1 || \
+  (major1) == 1 && (major2) <  20 || \
+  (major1) == 1 && (major2) == 20 && (minor) <= 9)
+#endif /* MIN_TOOL_VERSION_cpphs */
+
 /* tool gcc-12.0.0 */
 #ifndef TOOL_VERSION_gcc
 #define TOOL_VERSION_gcc "12.0.0"
@@ -374,6 +396,17 @@
   (major1) == 0 && (major2) == 68 && (minor) <= 7)
 #endif /* MIN_TOOL_VERSION_hsc2hs */
 
+/* tool hscolour-1.24 */
+#ifndef TOOL_VERSION_hscolour
+#define TOOL_VERSION_hscolour "1.24"
+#endif /* TOOL_VERSION_hscolour */
+#ifndef MIN_TOOL_VERSION_hscolour
+#define MIN_TOOL_VERSION_hscolour(major1,major2,minor) (\
+  (major1) <  1 || \
+  (major1) == 1 && (major2) <  24 || \
+  (major1) == 1 && (major2) == 24 && (minor) <= 0)
+#endif /* MIN_TOOL_VERSION_hscolour */
+
 /* tool pkg-config-0.29.2 */
 #ifndef TOOL_VERSION_pkg_config
 #define TOOL_VERSION_pkg_config "0.29.2"
@@ -397,7 +430,7 @@
 #endif /* MIN_TOOL_VERSION_runghc */
 
 #ifndef CURRENT_COMPONENT_ID
-#define CURRENT_COMPONENT_ID "testproj-0.1.0.0-E3OC0K38gkI1K5k8E7NDzP-testproj-exe"
+#define CURRENT_COMPONENT_ID "testproj-0.1.0.0-1M9bhyKMuNQ8oQCfFTIlP4-testproj-exe"
 #endif /* CURRENT_COMPONENT_ID */
 #ifndef CURRENT_PACKAGE_VERSION
 #define CURRENT_PACKAGE_VERSION "0.1.0.0"

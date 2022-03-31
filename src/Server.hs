@@ -1,7 +1,6 @@
 {-# LANGUAGE DataKinds #-}
 {-# LANGUAGE DeriveGeneric #-}
 {-# LANGUAGE FlexibleInstances #-}
-{-# LANGUAGE GeneralizedNewtypeDeriving #-}
 {-# LANGUAGE MultiParamTypeClasses #-}
 {-# LANGUAGE OverloadedStrings #-}
 {-# LANGUAGE RankNTypes #-}
@@ -132,7 +131,7 @@ instance ToJSON Email
 
 emailForClient :: ClientInfo -> Email
 emailForClient c = Email from' to' subject' body'
-      where 
+      where
         from'    = "great@company.com"
         to'      = clientEmail c
         subject' = "Hey " ++ clientName c ++ ", we miss you!"

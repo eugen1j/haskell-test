@@ -45,6 +45,7 @@ dependencies:
 - cookie
 - js-jquery
 - random
+- strict
 
 library:
   source-dirs: src
